@@ -182,46 +182,6 @@ footer {
         line-height: 1.3;
     }
 
-    #content-ar h3, #content-en h3 {
-        font-size: 0.95em; /* تقليل حجم العناوين الصغيرة */
-        line-height: 1.2;
-    }
-
-    #content-ar p, #content-en p,
-    #content-ar li, #content-en li {
-        font-size: 0.9em; /* حجم متناسق للنصوص في الفقرات */
-        line-height: 1.6;
-    }
-
-    /* تعديل حجم الأزرار */
-    .lang-button, .footer-button {
-        font-size: 0.95em; /* تقليل حجم النص داخل الأزرار */
-        padding: 10px 15px; /* تقليل الحواف الداخلية للأزرار */
-    }
-
-    /* تكبير حجم الفوتر */
-    footer {
-        font-size: 0.85em; /* تقليل النص في الفوتر */
-    }
-
-    /* تكبير حجم الأيقونات في الفوتر */
-    .footer-button i {
-        font-size: 1em; /* تقليل حجم الأيقونات */
-    }
-}
-
-/* إعدادات Media Queries للهواتف الذكية */
-@media screen and (max-width: 600px) {
-    body {
-        font-size: 0.95em; /* تقليل حجم النص بشكل عام للهواتف الذكية */
-    }
-
-    /* تنسيق المحتوى العربي والإنجليزي */
-    #content-ar h2, #content-en h2 {
-        font-size: 0.95em; /* تقليل حجم العناوين الثانوية */
-        line-height: 1.3;
-    }
-
     #content-ar h3, #content-en h3,
     .certificate h3 {
         font-size: 0.9em; /* تقليل حجم العناوين الصغيرة للشهادات والدورات */
