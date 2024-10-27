@@ -121,7 +121,7 @@ body {
 
 /* تصغير أسماء الشهادات */
 .glowing-card h3 {
-    font-size: 1.1em; /* تصغير حجم النص لعناوين الشهادات */
+    font-size: 1.05em; /* تصغير حجم النص لعناوين الشهادات */
     text-shadow: 0 0 6px rgba(255, 255, 255, 0.6); /* إضافة تأثير شعاع */
     margin-bottom: 15px;
 }
@@ -175,69 +175,69 @@ footer {
 /* إعدادات Media Queries للهواتف الذكية */
 @media screen and (max-width: 600px) {
     body {
-        font-size: 1em; /* تكبير حجم النص بشكل عام */
+        font-size: 0.95em; /* تقليل حجم النص بشكل عام للهواتف الذكية */
     }
 
     /* تنسيق المحتوى العربي والإنجليزي */
     #content-ar h1, #content-en h1 {
-        font-size: 1.6em; /* تكبير حجم العناوين الرئيسية */
-        line-height: 1.5; /* زيادة المسافة بين الأسطر */
+        font-size: 1.4em; /* تقليل حجم العناوين الرئيسية */
+        line-height: 1.4; /* زيادة المسافة بين الأسطر */
     }
 
     #content-ar h2, #content-en h2 {
-        font-size: 1.4em; /* تكبير حجم العناوين الثانوية */
-        line-height: 1.4;
+        font-size: 1.2em; /* تقليل حجم العناوين الثانوية */
+        line-height: 1.3;
     }
 
     #content-ar p, #content-en p,
     #content-ar li, #content-en li {
-        font-size: 1em; /* تكبير النصوص في الفقرات */
-        line-height: 1.7;
+        font-size: 0.9em; /* حجم متناسق للنصوص في الفقرات */
+        line-height: 1.6;
     }
 
     /* تعديل حجم الأزرار */
     .lang-button, .footer-button {
-        font-size: 1em; /* تكبير حجم النص داخل الأزرار */
-        padding: 12px 18px; /* تكبير الحواف الداخلية للأزرار */
+        font-size: 0.95em; /* تقليل حجم النص داخل الأزرار */
+        padding: 10px 15px; /* تقليل الحواف الداخلية للأزرار */
     }
 
     /* تكبير حجم الفوتر */
     footer {
-        font-size: 0.9em; /* تكبير النص في الفوتر */
+        font-size: 0.85em; /* تقليل النص في الفوتر */
     }
 
     /* تكبير حجم الأيقونات في الفوتر */
     .footer-button i {
-        font-size: 1.1em; /* تكبير حجم الأيقونات */
+        font-size: 1em; /* تقليل حجم الأيقونات */
     }
 }
 
 /* إعدادات Media Queries للهواتف الأصغر */
 @media screen and (max-width: 400px) {
     body {
-        font-size: 0.95em; /* تكبير حجم النص للهواتف الأصغر */
+        font-size: 0.9em; /* تقليل حجم النص للهواتف الأصغر */
     }
 
-    /* تكبير حجم العناوين بشكل إضافي */
+    /* تقليل حجم العناوين بشكل إضافي */
     #content-ar h1, #content-en h1 {
-        font-size: 1.5em; /* تكبير حجم العناوين الرئيسية */
-        line-height: 1.4;
+        font-size: 1.3em; /* تقليل حجم العناوين الرئيسية */
+        line-height: 1.3;
     }
 
     #content-ar h2, #content-en h2 {
-        font-size: 1.3em; /* تكبير حجم العناوين الثانوية */
-        line-height: 1.4;
+        font-size: 1.1em; /* تقليل حجم العناوين الثانوية */
+        line-height: 1.3;
     }
 
     #content-ar p, #content-en p,
     #content-ar li, #content-en li {
-        font-size: 0.95em; /* تكبير حجم النصوص في الفقرات */
-        line-height: 1.7;
+        font-size: 0.85em; /* تقليل حجم النصوص في الفقرات */
+        line-height: 1.6;
     }
 
     /* تعديل حجم الأزرار للهواتف الأصغر */
     .lang-button, .footer-button {
-        font-size: 0.95em; /* تكبير حجم الأزرار */
-        padding: 10px 14px; /* تكبير الحواف الداخلية للأزرار */
+        font-size: 0.9em; /* تقليل حجم الأزرار */
+        padding: 8px 12px; /* تقليل الحواف الداخلية للأزرار أكثر */
     }
 }
