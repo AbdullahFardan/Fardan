@@ -48,9 +48,10 @@ body {
     margin-bottom: 15px;
 }
 
-/* إضافة شعاع للنصوص التي لم تكن تحتوي على شعاع */
-.language-box p {
+/* إضافة شعاع للنصوص العادية داخل الأقسام */
+.language-box p, .glowing-card p {
     text-shadow: 0 0 8px rgba(255, 255, 255, 0.6); /* إضافة تأثير مشع للنصوص العادية */
+    color: #ffffff;
 }
 
 /* تنسيق الأزرار داخل البطاقة */
@@ -112,10 +113,17 @@ body {
 }
 
 /* إعداد النصوص لتكون مشعة */
-.glowing-card h2, .glowing-card p, .glowing-card ul {
+.glowing-card h2, .glowing-card ul {
     text-shadow: 0 0 8px rgba(255, 255, 255, 0.7); /* تأثير مشع خفيف على النص */
     line-height: 1.6;
     color: #ffffff;
+}
+
+/* تصغير أسماء الشهادات */
+.glowing-card h3 {
+    font-size: 1.1em; /* تصغير حجم النص لعناوين الشهادات */
+    text-shadow: 0 0 6px rgba(255, 255, 255, 0.6); /* إضافة تأثير شعاع */
+    margin-bottom: 15px;
 }
 
 /* إعداد النص المشع */
