@@ -184,7 +184,7 @@ footer {
 
     #content-ar h3, #content-en h3,
     .certificate h3 {
-        font-size: 0.7m; /* تقليل حجم العناوين الصغيرة للشهادات والدورات */
+        font-size: 0.5m; /* تقليل حجم العناوين الصغيرة للشهادات والدورات */
         line-height: 1.1;
     }
 
@@ -225,7 +225,7 @@ footer {
 
     #content-ar h3, #content-en h3,
     .certificate h3 {
-        font-size: 0.7em; /* تقليل حجم العناوين الصغيرة للشهادات والدورات */
+        font-size: 0.5em; /* تقليل حجم العناوين الصغيرة للشهادات والدورات */
         line-height: 1.1;
     }
 
