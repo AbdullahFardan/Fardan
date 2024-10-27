@@ -1,0 +1,159 @@
+/* إعدادات الخطوط والألوان العامة */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #060021; /* لون الخلفية الأساسية الداكن */
+    color: #ffffff; /* لون النص الأساسي */
+    overflow-x: hidden;
+}
+
+/* تنسيق صفحة اختيار اللغة مع خلفية شفافة */
+.language-selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(6, 0, 33, 0.9); /* خلفية شفافة */
+    position: relative;
+    padding: 20px;
+}
+
+/* تحسين تنسيق البطاقة مع تأثيرات مشعة */
+.language-box {
+    text-align: center;
+    background-color: rgba(6, 0, 33, 0.9); /* خلفية شبه شفافة */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 255, 0.3); /* تأثير مشع خفيف */
+    transition: transform 0.3s, box-shadow 0.3s; /* تأثيرات حركية عند التحويم */
+    max-width: 600px; /* تعيين حد أقصى للعرض */
+    margin: 20px;
+}
+
+/* تأثيرات عند التحويم على البطاقة */
+.language-box:hover {
+    transform: scale(1.05); /* تكبير البطاقة قليلاً */
+    box-shadow: 0 0 25px rgba(0, 0, 255, 0.7); /* زيادة تأثير الإشعاع */
+}
+
+/* تحسين مظهر النصوص مع تأثيرات الإضاءة */
+.language-box h2,
+.language-box h5,
+.language-box h3,
+.language-box h4 {
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.7); /* تأثير مشع خفيف على النص */
+    color: #ffffff; /* لون النص */
+    margin-bottom: 15px;
+}
+
+/* تنسيق الأزرار داخل البطاقة */
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    flex-wrap: wrap; /* لتجنب مشاكل العرض على الشاشات الصغيرة */
+}
+
+/* تنسيق الأزرار مع تأثيرات مشعة */
+.lang-button {
+    background-color: rgba(0, 0, 36, 0.7); /* لون أزرق داكن شفاف */
+    color: #ffffff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.lang-button:hover {
+    background-color: rgba(0, 0, 139, 0.8);
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(0, 0, 255, 0.7); /* تأثير مشع */
+}
+
+/* إعدادات البطاقات المشعة */
+.glowing-card {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: rgba(6, 0, 33, 0.9); /* خلفية مشابهة للأزرار */
+    border-radius: 8px;
+    max-width: 800px;
+    box-shadow: 0 4px 10px rgba(0, 0, 255, 0.3); /* ظل خفيف */
+    text-align: center;
+    color: #ffffff; /* جعل النص باللون الأبيض */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.glowing-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(0, 0, 255, 0.8); /* تأثير مشع */
+}
+
+.glowing-card ul {
+    list-style: none; /* إزالة النقاط */
+    padding: 0;
+    margin: 0;
+}
+
+.glowing-card li {
+    margin: 10px 0; /* إضافة مسافة بين العناصر */
+    text-align: center; /* محاذاة النص في الوسط */
+}
+
+/* إعداد النصوص لتكون مشعة */
+.glowing-card h2, .glowing-card p, .glowing-card ul {
+    text-shadow: 0 0 6px rgba(255, 255, 255, 0.7); /* تأثير مشع خفيف على النص */
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+/* إعداد النص المشع */
+.glowing-text {
+    font-size: 14px;
+    color: #ffffff; /* لون النص الأبيض */
+    text-align: center;
+    text-shadow: 0 0 12px rgba(255, 255, 255, 0.8); /* إزالة تأثير الظل */
+}
+
+/* إعدادات الفوتر */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #060021;
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+/* إعداد الأزرار في الفوتر */
+.footer-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap; /* لتجنب مشاكل العرض على الشاشات الصغيرة */
+}
+
+.footer-button {
+    background-color: rgba(6, 0, 33, 0.8); /* لون الأزرار مشابه للأزرار الأخرى */
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.footer-button:hover {
+    background-color: rgba(0, 0, 139, 0.8);
+    box-shadow: 0 0 15px rgba(0, 0, 255, 0.7); /* تأثير مشع */
+    transform: translateY(-3px);
+}
